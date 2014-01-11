@@ -217,9 +217,10 @@ BOOL CCamTestDlg::OnInitDialog()
 	loadconfig();
 	UpdateData(FALSE); //配置文件修改了变量
 	//md5检测
-	md5_right=md5check();//加密
+	md5_right=1;//disable 加密
+	//md5_right=md5check();//加密
 	if(md5_right==0)
-	{AfxGetMainWnd()-> SetWindowText( "FS智能车调试工具（电磁试用版）——海猪的淘宝店http://xiaohaizhu.taobao.com"); }
+	{AfxGetMainWnd()-> SetWindowText( "FS飞思卡尔智能车上位机——http://eecs.taobao.com"); }
 	
 	//graph initial
 	m_graph_main.ClearGraph();

@@ -6,73 +6,46 @@
 --------------------Configuration: CamTest - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x804 /fo"Release/CamTest.res" /d "_DEBUG" "C:\Documents and Settings\Administrator\桌面\dianci\trunk\CamTest.rc"" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp" with contents
 [
 /nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/CamTest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /GZ /c 
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\CamTest.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\CamTestDlg.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\font.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\md5.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\MyAboutDlg.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\ntgraph.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\picture.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\SerialPort.cpp"
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\State.cpp"
+"C:\test\fsgui\MyAboutDlg.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15.tmp" with contents
-[
-/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/CamTest.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /GZ /c 
-"C:\Documents and Settings\Administrator\桌面\dianci\trunk\StdAfx.cpp"
-]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:yes /pdb:"Release/CamTest.pdb" /debug /machine:I386 /out:"Release/CamTest.exe" /pdbtype:sept 
-".\Release\CamTest.obj"
-".\Release\CamTestDlg.obj"
-".\Release\font.obj"
-".\Release\md5.obj"
-".\Release\MyAboutDlg.obj"
-".\Release\ntgraph.obj"
-".\Release\picture.obj"
-".\Release\SerialPort.obj"
-".\Release\State.obj"
-".\Release\StdAfx.obj"
-".\Release\CamTest.res"
+.\Release\CamTest.obj
+.\Release\CamTestDlg.obj
+.\Release\font.obj
+.\Release\md5.obj
+.\Release\MyAboutDlg.obj
+.\Release\ntgraph.obj
+.\Release\picture.obj
+.\Release\SerialPort.obj
+.\Release\State.obj
+.\Release\StdAfx.obj
+.\Release\CamTest.res
 ]
-Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP16.tmp"
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp"
 <h3>Output Window</h3>
-Compiling resources...
 Compiling...
-StdAfx.cpp
-Compiling...
-CamTest.cpp
-CamTestDlg.cpp
-font.cpp
-md5.cpp
 MyAboutDlg.cpp
-ntgraph.cpp
-picture.cpp
-SerialPort.cpp
-State.cpp
-Generating Code...
 Linking...
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP51.tmp" with contents
 [
 /nologo /o"Release/CamTest.bsc" 
-".\Release\StdAfx.sbr"
-".\Release\CamTest.sbr"
-".\Release\CamTestDlg.sbr"
-".\Release\font.sbr"
-".\Release\md5.sbr"
-".\Release\MyAboutDlg.sbr"
-".\Release\ntgraph.sbr"
-".\Release\picture.sbr"
-".\Release\SerialPort.sbr"
-".\Release\State.sbr"]
-Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp"
+.\Release\StdAfx.sbr
+.\Release\CamTest.sbr
+.\Release\CamTestDlg.sbr
+.\Release\font.sbr
+.\Release\md5.sbr
+.\Release\MyAboutDlg.sbr
+.\Release\ntgraph.sbr
+.\Release\picture.sbr
+.\Release\SerialPort.sbr
+.\Release\State.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP51.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
